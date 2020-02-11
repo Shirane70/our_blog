@@ -26,8 +26,26 @@ body{
       }
     }
   }
+  .writers{
+    margin: 30px 0px;
+    background-color:silver;
+    height: 600px;
+    width: 20%;
+    overflow: scroll;
+    float: left;
+  
+  }
+  .categories{
+    margin: 30px 0px;
+    background-color:silver;
+    height: 600px;
+    width: 20%;
+    overflow: scroll;
+    float: right;
+  }
+
   .contents{
-    margin: 30px auto 0;
+    margin: 30px 0px;
     background-color:white;
     height: 600px;
     width: 60%;
@@ -119,6 +137,7 @@ body{
       margin: 20px 30px;
     }
   }
+
   .form{
     width: 85%;
     height: 100%;
