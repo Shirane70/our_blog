@@ -12,10 +12,6 @@
 
 ActiveRecord::Schema.define(version: 2020_02_20_104805) do
 
-  create_table "categories", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC", force: :cascade do |t|
-    t.string "slug", null: false
-  end
-
   create_table "posts", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.text "title"
     t.text "content"
